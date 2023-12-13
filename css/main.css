@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #000;
+    /* overflow: hidden; */
+  font-family: sans-serif;
+}
+body{
+  background-color: #FEFEFE;
+}
+
+/* nav */
+nav{
+  position: fixed;
+   left: 0;
+   top: 0 ;
+   width: 100%;
+   height: 6rem;
+
+   
+}
+
+.sNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:#2C56CD ;
+  height: 3.7rem;
+}
+.brand{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  width: 15rem;
+  margin-top: 1rem;
+
+}
+#logo{
+  height: 2rem;
+  margin: 0rem 0.5rem;
+  align-self:baseline;
+}
+
+#bannar{
+  margin-right: 23rem;
+}
+
+
+
+#bannar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:0rem 0.0rem;
+    
+}
+#bannar ul a li{
+    padding: 1.3rem 0.0rem;
+    margin: 0rem 0.0rem;
+    text-align: center;
+    align-items: center;
+}
+
+a{
+    color: #000000 ;
+    text-decoration: none;
+  }
+
+.navBanner{
+  width:5rem;
+  transition: all 0.3s ease-in-out ;
+
+} 
+.navBanner:hover {
+    background-color: #83A2FF;
+    transition: all 0.3s ease-in-out ;
+  }
+  #navOn{
+    background-color: #83A2FF;
+
+  }
+
+
+
+
+  .aboutNav{
+    background-color:  #83A2FF;
+    height: 3rem;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+  }
+
+  
+  .aboutNav h4{
+    margin-left: 5rem;
+    
+    
+  }
+  
+
+.aboutArticle h1{
+
+  margin: 1rem 0rem;
+
+}
+
+
+button{
+  margin:1.8rem;
+  padding: 0.5rem;
+  background-color:#FFD28F ;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease-in-out ;
+
+}
+button:hover{
+background-color:#FFE3BB ;
+  color:#000000;
+  transition: all 0.3s ease-in-out ;
+  box-shadow: 2px 2px 5px 1px #ffe3bb;
+
+
+}
+
+  
+
+
+
+li img {
+  height: 0.9rem;
+    margin: 1.4rem 0.5rem 0rem 1rem;
+}
+
+footer{
+  
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:#2C56CD;
+    position: fixed;
+     left: 0;
+     bottom: 0;
+  }
+  footer a  {
+    margin: 0.6rem 0.5rem;
+  
+  }

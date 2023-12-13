@@ -1,0 +1,251 @@
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.aboutArticle {
+    border-top: #000000;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#83A2FF, #2C56CD, #2C56CD);
+    padding-bottom: 2rem;
+}
+
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    padding-right: 4rem;
+
+
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.left article {
+    margin: 3rem;
+    padding: 0rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items: center;
+    width: 20%;
+    height: 28rem;
+    border-radius: 3px;
+} 
+
+
+
+
+.left article:hover{
+
+    transition: all 0.3s ease-in-out ;
+    box-shadow: 2px 2px 5px 1px #2C56CD;
+}
+.FSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+}
+.detail{
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    flex-direction: column;
+    height: 7rem;
+    width: 89%;
+}
+.detail div{
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0rem 0.5rem;
+}
+
+
+.detail div img{
+    margin-right: 10px;
+
+}
+
+ .price{
+    font-size: xx-large;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5rem;
+    height: 13%;
+   
+}
+
+
+ .FSection img {
+    margin-top:0.9rem ;
+
+
+
+}
+
+
+.left article button{
+    width: 100%;
+    height: 20%;
+    font-size: large;
+    border-radius: 3px;
+    background-color: #B4BDFF;
+    color: white;
+    border: none;
+    padding: 1px 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Trail {
+    border-top: 10px solid #73a3fc;
+
+}
+
+
+#Trail .FSection {
+    background-color: #9bbdfd;
+
+}
+
+.FSection img {
+    /* background-color: #83A2FF; */
+    margin-top:0.9rem ;
+}
+.FSection h2{
+    color: white;
+    
+}
+
+
+#Trail .price{
+    color:#73a3fc ;
+
+
+}
+
+
+
+
+
+
+#Small {
+   
+    border-top: 10px solid #0450dc;
+    background-color: white;
+   
+}
+#Small:hover {
+    transition: all 0.3s ease-in-out ;
+    box-shadow: 2px 2px 5px 1px #2C56CD;
+}
+#Small .FSection{
+        background-color: #0f61fa;
+
+    
+}
+#Small .price{
+    color:#0f61fa;
+}
+
+#BSmall{
+
+        background-color: #0f61fa;
+        color: white;    
+}
+
+
+
+
+#Big {
+
+    border-top: 10px solid #223d64;
+    background-color: white;
+
+}
+
+#Big:hover {
+    transition: all 0.3s ease-in-out ;
+    box-shadow: 2px 2px 5px 1px #2C56CD;
+}
+#Big .FSection{
+        background-color: #1a2f4c;    
+}
+#Big .price{
+    color:#1a2f4c;
+}
+#BBig{
+    background-color: #1a2f4c;
+    color: white;  
+}
+
+
+
+ .search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding: 10px 0px;
+    background-color: #2C56CD;
+ }
+
+
+
+.categ{
+    margin-top: 1rem;
+    height: 3rem;
+}
+.search ul li{
+    list-style: none;
+    margin: 0.5rem 1rem;
+ }
+
+ .search ul{
+    display: flex;
+    justify-content: space-around;
+ }
+
+
+.search .theComment p {
+    width: 40%;
+}

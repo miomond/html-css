@@ -1,0 +1,95 @@
+
+
+
+.aboutArticle{
+    border-top: #000000; 
+   margin-top: 6.5rem;
+   display: flex;
+   flex-direction: column;
+ align-items: center;
+ background-image: linear-gradient(#83A2FF, #2C56CD, #2C56CD);
+ padding-bottom: 2rem;
+ }
+
+.aboutGallery{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:3rem 0rem  10rem 0rem ;
+
+}
+.dash{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    background-color: #B4BDFF;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+
+}
+.dash img {
+    border-radius: 5px;
+}
+.dash h2{
+    margin: 0.5rem;
+
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 100vh;
+
+
+}
+.card{
+    width: 14%;
+    margin: 4rem 2rem;
+    height: fit-content;
+    background-color: #dde4f8;
+    border-top: 2px solid #2C56CD;
+    padding: 20px;
+    transition: all 0.3s ease-in-out ;
+    border-radius: 15px;
+
+}
+.card:hover{
+    background-color: #83A2FF;
+
+    transition: all 0.3s ease-in-out ;
+    box-shadow: 2px 2px 5px 1px #2C56CD;
+
+}
+ .card img{
+    width: 100%;
+    border-radius: 10px;
+    }
+ 
+    .name h1{
+        margin:0.3rem 0rem;
+        border-bottom: 1px solid #2C56CD;
+    }
+    .job{
+        margin: 0.4rem 0rem;
+        font-weight: bold;
+        font-size: smaller;
+        margin: 1rem 0rem;
+
+
+    }
+    .card p{
+            margin-top: 0.3rem;
+            font-size: small;
+    }
+
+
+
+
+
+
+
+

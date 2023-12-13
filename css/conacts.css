@@ -1,0 +1,67 @@
+
+hr{
+    margin: 1rem 0rem;
+}
+
+
+.aboutArticle{
+    border-top: #000000; 
+   margin-top: 6.5rem;
+   display: flex;
+   flex-direction: column;
+ align-items: center;
+ background-image: linear-gradient(#83A2FF, #2C56CD, #2C56CD);
+ padding-bottom: 2rem;
+ }
+
+
+.map{
+    width: 100%;
+    height: 20rem;
+}
+.map img{
+width: 100%;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40rem;
+    width: 100%;
+    margin-top: 8rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+input{
+    width: 14rem;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
+}
+
+
+
+pre{
+    color:#000000;
+
+}
+  #contactUsToday{
+    margin:1.8rem;
+    padding: 0.9rem;
+    background-color:#83A2FF ;
+    color:#000000;
+    border-radius: 5px;
+    width: 8rem;
+    border: none;
+  }
+#contactUsToday:hover{
+  background-color:#B4BDFF ;
+    color:#000000;
+}
+
+
